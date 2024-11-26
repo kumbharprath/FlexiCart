@@ -9,7 +9,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git branch: 'main', changelog: false, poll: false, url: 'https://github.com/Web-Development-Project-with-DevOps/E-commerce.git'
+                git branch: 'main', changelog: false, poll: false, url: 'https://github.com/kumbharprath/FlexiCart.git'
             }
         }
 
